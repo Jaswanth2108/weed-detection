@@ -20,6 +20,39 @@ It features an interactive **Streamlit Web Application** allowing farmers, resea
 
 ---
 
+## 📸 Sample Outputs & Demonstrations
+
+### 🎯 1. YOLOv3 Crop & Weed Detection Outputs
+Below are sample detection results showing bounding boxes around detected crops and weeds:
+
+| Detection Output 1 | Detection Output 2 |
+| :---: | :---: |
+| ![Detection Output 1](performing_detection/data/detection/detection.jpg) | ![Detection Output 2](performing_detection/data/detection/detection_1.jpeg) |
+
+---
+
+### 🔬 2. Pl@ntNet API Species Identification Output
+
+When an image is passed to the **Pl@ntNet Botanical AI engine**, the application provides rich taxonomic information:
+
+```text
+============================================================
+🔬 Pl@ntNet Botanical Analysis Result
+============================================================
+🏆 Best Match       : Solanum melongena L.
+📊 Confidence Score : 94.8%
+🌿 Organ Analyzed   : Leaf
+
+📋 Taxonomic Classification:
+ ├── Scientific Name : Solanum melongena
+ ├── Family          : Solanaceae
+ ├── Genus           : Solanum
+ └── Common Names    : Eggplant, Aubergine, Brinjal
+============================================================
+```
+
+---
+
 ## ✨ Key Features
 
 - 🎯 **Localized Object Detection**: YOLOv3 model trained specifically to differentiate between crops and weeds.
@@ -44,6 +77,7 @@ weed-detection/
 ├── performing_detection/               # Inference engine & Streamlit app
 │   ├── data/                          # Configuration & dataset assets
 │   │   ├── cfg/                       # Model configuration files
+│   │   ├── detection/                 # Visual output detection samples
 │   │   ├── names/                     # Class names file
 │   │   └── weights/                   # Pre-trained YOLO model weights
 │   ├── opencv/                        # OpenCV detection notebook
