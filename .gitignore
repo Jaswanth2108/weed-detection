@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment variables & Virtual Environments
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# Heavy model weights (>100MB exceeds GitHub limits)
+*.weights
+*.pt
+*.onnx
+*.bin
+*.h5
+
+# Local logs & checkpoints
+*.log
+checkpoint/
+backup/
