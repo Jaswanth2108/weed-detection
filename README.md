@@ -156,3 +156,5 @@ To request your free API key, visit [Pl@ntNet API Developer Portal](https://my-a
 ## 📄 License
 
 This project is licensed under the MIT License - feel free to use and adapt for your agricultural AI projects!
+---
+© 2026 Pittala Jaswanth Kumar. All Rights Reserved.
